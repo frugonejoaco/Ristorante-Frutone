@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ristorante Frutone</title>
+    <script
+      src="https://kit.fontawesome.com/283335a286.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./assets/img/istockphoto-500625270-612x612.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+
+  <body>
+    <header class="encabezado">
+      <div class="contenedor-navegacion">
+        <div class="contenido-navegacion contenedor">
+          <div class="logo">
+            <h2>
+              Ristorante <span class="verde">Fru</span><span>to</span
+              ><span class="rojo">ne</span>
+            </h2>
+          </div>
+          <nav class="navegacion ocultar">
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Sobre Nostros</a>
+            <a href="#menu">Menu</a>
+            <a href="#">Chef</a>
+            <a href="#contacto">Contacto</a>
+          </nav>
+          <div class="hamburguesa"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+      <div class="contenido-header" id="inicio">
+        <div class="contenedor-encabezado">
+          <div class="texto-encabezado">
+            <h2>Bienvenidos!</h2>
+            <a href="#menu" class="btn bordes"> II nostro menu</a>
+          </div>
+          <video autoplay loop muted>
+            <source src="./assets/bg_video.mp4" />
+          </video>
+        </div>
+      </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor" id="nosotros">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Bienvenido a!</p>
+                <h1>Ristorante Frutone</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolores
+                consectetur unde et! Tenetur, minus beatae, sequi officia adipisci
+                dolorem culpa nobis eveniet est quia possimus rem veniam ea sapiente.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempora,
+                minima ipsa, obcaecati minus magnam iusto cum reprehenderit fugiat
+                natus dolorem fugit numquam doloremque amet, necessitatibus
+                consectetur? Beatae, veniam doloremque?
+            </p>
+                <a href="#" class="btn btn-rojo">Contactar</a>
+        </div>
+            <div class="imagenes-nosotros">
+                <div class="imagen1">
+                    <img data-src="./assets/img/nosotros1.webp" alt="Mujer Comiendo Pizza" />
+            </div>
+                <div class="imagenes2">
+                    <img data-src="assets/img/nosotros2.webp" alt="Mujeres Comiendo Pizza" />
+                    <img data-src="assets/img/nosotros3.webp" alt="Plato con Pasta" />
+                </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor" id="menu">
+        <h2 class="texto-platos">Platos Destacados</h2>
+        <div class="botones-platos">
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="ensaladas btn btn-verde">Ensaladas</button>
+            <button class="pasta btn btn-verde">Pasta</button>
+            <button class="pizza btn btn-verde">Pizza</button>
+            <button class="postres btn btn-verde">Postres</button>
+        </div>
+        <div class="platos">
+            <div class="plato" data-plato="ensalada">
+                <img data-src="./assets/img/ensalada.webp" alt="Ensalada">
+                <h2>Quinoas</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="plato" data-plato="ensalada">
+                <img data-src="./assets/img/ensalada2.webp" alt="Ensalada">
+                <h2>Toscana</h2>
+                <p>Aceite de Oliva, bacon, pechuga de pollo, orégano</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="plato" data-plato="ensalada">
+                <img data-src="./assets/img/ensalada3.webp" alt="Ensalada">
+                <h2>Quinaos</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pasta">
+                <img data-src="./assets/img/pasta1.webp" alt="Pasta">
+                <h2>Quinaos</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pasta">
+                <img data-src="./assets/img/pasta2.webp" alt="Pasta">
+                <h2>Quinaos</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pasta">
+                <img data-src="./assets/img/pasta3.webp" alt="Pasta">
+                <h2>Quinaos</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pizza">
+                <img data-src="./assets/img/pizza1.webp" alt="Pizza">
+                <h2>Quinaos</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pizza">
+                <img data-src="./assets/img/pizza2.webp" alt="Pizza">
+                <h2>Quinaos</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pizza">
+                <img data-src="./assets/img/pizza3.webp" alt="Pizza">
+                <h2>Quinaos</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="plato" data-plato="postre">
+                <img data-src="./assets/img/postres1.webp" alt="Postre">
+                <h2>Quinaos</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="plato" data-plato="postre">
+                <img data-src="./assets/img/postres2.webp" alt="Postre">
+                <h2>Quinaos</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="plato" data-plato="postre">
+                <img data-src="./assets/img/postres3.webp" alt="Postre">
+                <h2>Quinaos</h2>
+                <p>Quinoa, cerezas, tomate, aceitunas, cereal</p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<footer ><i>Todos los derechos reservados © 2023 "Ristorante Frugone"</i></footer>
+
+<script src="./js/app.js"></script>
+
+</body>
+</html>
